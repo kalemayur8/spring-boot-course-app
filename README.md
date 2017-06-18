@@ -1,6 +1,9 @@
 # spring-boot-course-app
 University Course Application assignment
 
+# Pre Requisite 
+Please make sure you have Java 1.8 intalled and present in environment path.
+
 # Feature 
  Spring Boot + Spring Data JPA + Rest Webservices + Swagger-UI with H2 database.
 
