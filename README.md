@@ -52,3 +52,8 @@ https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_univ
         name: Maryville University,
         web_page: http://www.maryville.edu/
 
+
+See Following app screen shot
+
+![add-course](https://user-images.githubusercontent.com/10242113/27259543-f448f5a8-5432-11e7-874a-3ccc23f58596.JPG)
+![add-university](https://user-images.githubusercontent.com/10242113/27259542-f444c348-5432-11e7-98d8-8206dfd5d393.JPG)
