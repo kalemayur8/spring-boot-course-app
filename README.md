@@ -1,14 +1,54 @@
 # spring-boot-course-app
-University Course Application assignement
+University Course Application assignment
 
 # Feature 
  Spring Boot + Spring Data JPA + Rest Webservices + Swagger-UI with H2 database.
-# Steps To run the application
-1. Download project or checkout it.
-2. Open command prompt at pom.xml level and type "mvn package" cammand.
-3. In the target folder you can see course-app-0.0.1-SNAPSHOT.jar is generated.
-4. Use cammand  "java -jar  ./target/course-app-0.0.1-SNAPSHOT.jar" to run the jar file.
-5. Now the application has started.
-6. Hit http://localhost:8080/course-app/console url on browser to configure database. You can see following database page on browser just click on connect button.
 
+# DB Design
+![db-design](https://user-images.githubusercontent.com/10242113/27259436-fa1aa6f4-5430-11e7-9214-c0c5c2c11f42.JPG)
+
+# Steps To run the application
+- Download project or checkout it.
+- Open command prompt at pom.xml level and type "mvn package" cammand.
+- In the target folder you can see course-app-0.0.1-SNAPSHOT.jar is generated.
+- Use cammand  "java -jar  ./target/course-app-0.0.1-SNAPSHOT.jar" to run the jar file.
+- Now the application has started.
+- Hit http://localhost:8080/course-app/console url on browser to configure database. You can see following database page on browser just click on connect button.
+
+![db-connection](https://user-images.githubusercontent.com/10242113/27259441-180927f8-5431-11e7-9192-279af81dc3cb.JPG)
+
+- Run following SQL queries on DB SQL console section to create schema and table you can see COURSE schema gets generated.
+
+![schema-generation](https://user-images.githubusercontent.com/10242113/27259446-2bedcc88-5431-11e7-909b-9ce16f938df1.JPG)
+
+- To see all application ReST Services and their decription hit this URL http://localhost:8080/course-app/swagger-ui.html 
+![swagger-ui](https://user-images.githubusercontent.com/10242113/27259453-4ba870f0-5431-11e7-8bf1-081c11871b61.JPG)
+
+- To see the application UI as below you can hit http://localhost:8080/course-app/ and add university, course and students.
+Following is some of the sample data for Universities which I have derived from the link 
+https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json
+
+        alpha_two_code : US,
+        country: United States,
+        domain: calbaptist.edu,
+        name: California Baptist University,
+        web_page: http://www.calbaptist.edu/
+
+        alpha_two_code: US,
+        country: United States,
+        domain: stevenson.edu,
+        name: Stevenson University,
+        web_page: http://www.stevenson.edu/
+
+        alpha_two_code: US,
+        country: United States,
+        domain: mbl.edu,
+        name: Marine Biological Laboratory,
+        web_page: http://www.mbl.edu/
+
+        alpha_two_code: US,
+        country: United States,
+        domain: maryville.edu,
+        name: Maryville University,
+        web_page: http://www.maryville.edu/
 
