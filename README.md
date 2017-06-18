@@ -17,7 +17,7 @@ University Course Application assignment
 
 ![db-connection](https://user-images.githubusercontent.com/10242113/27259441-180927f8-5431-11e7-9192-279af81dc3cb.JPG)
 
-- Run following SQL queries on DB SQL console section to create schema and table you can see COURSE schema gets generated.
+- Run SQL queries present in file course_create.sql (present in "/main/resource" folder) on DB SQL console section to create schema and table you can see COURSE schema gets generated.
 
 ![schema-generation](https://user-images.githubusercontent.com/10242113/27259446-2bedcc88-5431-11e7-909b-9ce16f938df1.JPG)
 
