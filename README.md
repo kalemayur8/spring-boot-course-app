@@ -25,7 +25,7 @@ Please make sure you have Java 1.8 intalled and present in environment path.
 ![schema-generation](https://user-images.githubusercontent.com/10242113/27259446-2bedcc88-5431-11e7-909b-9ce16f938df1.JPG)
 
 - To see all application ReST Services and their decription hit this URL http://localhost:8080/course-app/swagger-ui.html 
-![swagger-ui](https://user-images.githubusercontent.com/10242113/27259453-4ba870f0-5431-11e7-8bf1-081c11871b61.JPG)
+![swagger-ui](https://user-images.githubusercontent.com/10242113/27277923-89477f24-54fd-11e7-9d1f-85c320ae8609.JPG)
 
 - To see the application UI as below you can hit http://localhost:8080/course-app/ and add university, course and students.
 Following is some of the sample data for Universities which I have derived from the link 
