@@ -17,9 +17,9 @@ public class SwaggerConfig {
 	@Bean
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-        		.apiInfo(new ApiInfo("Online Checkout", "Add Products to cart and see "
-        				+ "checkout where you will get all Product details with Total "
-        				+ "Price and Sales tax", "0.0.1", null, "Mayur Kale", "", ""))
+        		.apiInfo(new ApiInfo("Course App", "University, student and courses application "
+        				+ ", Where you will get all University and Courses related info"
+        				+ "", "0.0.1", null, "Mayur Kale", "", ""))
                 .select().apis(RequestHandlerSelectors.basePackage("com.course.courseapp.controller"))
                 .paths(PathSelectors.any())
                 .build();
